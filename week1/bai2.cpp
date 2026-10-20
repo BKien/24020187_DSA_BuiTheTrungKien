@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+// sử dụng 2 vòng lặp --> độ phức tạp thời gian là n^2  ; độ phức tạp không gian là n do sử dụng n ô nhớ cho mảng
 void sort(int n, int a[]){
     for(int i=0;i<n;i++){
         for(int j=i+1;j < n ;j++){

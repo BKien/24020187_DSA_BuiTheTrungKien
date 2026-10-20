@@ -12,5 +12,7 @@ int main(){
     for(int i=0;i<n;i++){
         if(a[i] >= tb) cout<<a[i]<<" ";
     }
+    // độ phức tạp thời gian là n do sử dụng 3 vòng lặp độc lập
+    // độ phực tạp không gian là n do sử dụng n ô nhớ cho mảng
     return 0;
 }

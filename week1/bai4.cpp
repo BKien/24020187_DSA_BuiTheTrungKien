@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-
+// độ phức tạp không gian là 1 do chỉ sử dụng biến tạm r;
+// 
 int gcd(int a, int b) {
     while (b != 0) {
         int r = a % b;

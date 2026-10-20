@@ -1,12 +1,15 @@
 #include<iostream>
 using namespace std;
-
+// 1 vòng lặp --> độ phức tạp thời gian là n-k
+// cần sử dụng n ô nhớ cho mảng --> độ phức tạp không gian là n
 void deleteK(int k,int &n,int a[]){
     for(int i=k-1;i<n-1;i++){
         a[i] = a[i+1];
     }
     n = n-1;
 }
+// 1 vòng lặp --> độ phức tạp thời gian là n-k
+// cần sử dụng n ô nhớ cho mảng --> độ phức tạp không gian là n
 void insert(int y,int m,int& n,int a[]){
     for(int i=n;i>=y-1;i--){
         a[i] = a[i-1];
